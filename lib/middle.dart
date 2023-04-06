@@ -25,6 +25,12 @@ class MiddleScreen extends StatelessWidget {
               items: [
                 GestureDetector(
                   onTap: () => launch(
+                    "https://www.saytv.net",
+                  ),
+                  child: ProjectWidget(title: "SAYTV"),
+                ),
+                GestureDetector(
+                  onTap: () => launch(
                     "https://github.com/cagriaydin/notify_me",
                   ),
                   child: ProjectWidget(title: "Notify Me"),
