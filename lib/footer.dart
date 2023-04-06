@@ -13,14 +13,14 @@ class FooterScreen extends StatelessWidget {
       [
         GestureDetector(
           onTap: () => launch(
-            "mailto:aydin.cagri@outlook.com",
+            "mailto:cagriaydin.dev@gmail.com",
           ),
           child: VxDevice(
             mobile: VStack(
               [
                 "Got a project?\nLet's talk.".text.center.white.xl2.make(),
                 10.heightBox,
-                "aydin.cagri@outlook.com"
+                "cagriaydin.dev@gmail.com"
                     .text
                     .color(Coolors.accentColor)
                     .semiBold
@@ -37,7 +37,7 @@ class FooterScreen extends StatelessWidget {
               [
                 "Got a project?\nLet's talk.".text.center.white.xl2.make(),
                 10.widthBox,
-                "aydin.cagri@outlook.com"
+                "cagriaydin.dev@gmail.com"
                     .text
                     .color(Coolors.accentColor)
                     .semiBold
